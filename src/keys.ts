@@ -1,4 +1,6 @@
 export function keyFromPathname(pathname: string) {
-  const key = pathname.startsWith('/') ? pathname.slice(1) : pathname
-  return key
+  console.log('pathname', pathname);
+  const key = pathname.startsWith('/') ? pathname.slice(1) : pathname;
+  console.log('key', key);
+  return key;
 }
